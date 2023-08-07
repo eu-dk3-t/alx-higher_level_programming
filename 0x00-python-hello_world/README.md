@@ -18,3 +18,21 @@
 * **[Source repo](https://github.com/holbertonschool/0x00.py/blob/master)**
 ### - 9-easter_egg.py
 	A python script that prints the zen of python.
+### - 10-check_cycle.c
+	Checks for a cycle in a linked list!
+### - lists.h
+	Header for 10-check_cycle
+### - 100-write.py
+	This python script prints something using the sys module's write function
+### - 101-compile
+	This shell script compile a Python script stored in the environment variable `$PYFILE`
+
+###- 102-magic_calculation.py
+	Matches the bytecode.
+
+ 3           0 LOAD_CONST               1 (98)
+              3 LOAD_FAST                0 (a)
+              6 LOAD_FAST                1 (b)
+              9 BINARY_POWER
+             10 BINARY_ADD
+             11 RETURN_VALUE
