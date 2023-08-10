@@ -3,7 +3,7 @@
 ## - Scripts
 
 ### + 0-add.py
-Imports the function add(a, b) from the file [`add_0.py`](https://github.com/eu-dk3-t/alx-higher_level_programming/main/0x02-python-import_modules/add_0.py)
+Imports the function add(a, b) from the file [`add_0.py`](https://github.com/eu-dk3-t/alx-higher_level_programming/blob/main/0x02-python-import_modules/add_0.py)
 and prints the result.
 ### + 1-calculation.py
 Imports functions from the file [`calculator_1.py`](https://github.com/eu-dk3-t/alx-higher_level_programming/blob/main/0x02-python-import_modules/calculator_1.py)
