@@ -22,3 +22,13 @@ A function that adds 2 tuples.
 A function that returns a tuple with the length of a string and its first char.
 #### ++  9-max_integer.py
 A function that finds the biggest integer of a list.
+#### ++ 10-divisible_by_2.py
+Find all multiples of 2 in a list
+#### ++ 11-delete_at.py
+Deletes an item at a specified idx
+#### ++ 12-switch.py
+Switches vars a and b
+#### ++ 13-is_palindrome.c
+Checks if a linked list is a palindrome
+#### ++ 100-print_python_list_info.c
+Prints info about Python lists
