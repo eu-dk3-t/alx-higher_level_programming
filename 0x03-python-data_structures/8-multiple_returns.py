@@ -2,10 +2,11 @@
 # File name:
 #       8-multiple_returns.py
 # Description:
-#       Returns the lenfth of a string 
+#       Returns the lenfth of a string
 #       and its first character
 # Author:
 #       eu-dk3-t
+
 
 def multiple_returns(sentence):
     length = len(sentence)
