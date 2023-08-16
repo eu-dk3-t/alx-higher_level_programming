@@ -19,7 +19,7 @@
  * 	@p: A PyObject list.
  */
 
-void print_python_list_info(PyObject *p)
+void print_python_list(PyObject *p)
 {
 	int size, alloc, i;
 	PyObject *obj;
