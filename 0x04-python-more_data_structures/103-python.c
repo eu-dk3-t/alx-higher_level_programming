@@ -3,8 +3,7 @@
  * 	103-python.c
  * Description:
  * 	Prints some basic info
- * 	about Py list and their 
- * 	byte objects
+ * 	about Py list
  * Author:
  * 	eu-dk3-t
  */
