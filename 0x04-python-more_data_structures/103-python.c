@@ -11,31 +11,33 @@
 #include <Python.h>
 
 /**
- * Function name:
- * 	print_python_list_info
+ * Function name: 
+ * 	print_python_list 
  * Description:
  * 	Prints basic info about Python lists.
  * NTK:
- * 	@p: A PyObject list.
+ * 	@p: A PyObject list object.
  */
-
 void print_python_list(PyObject *p)
 {
 	int size, alloc, i;
-	PyObject *obj;
+	const char *type;
+	PyListObject *list = (PyListObject *)p;
+	PyVarObject *var = (PyVarObject *)p;
 
-	size = Py_SIZE(p);
-	alloc = ((PyListObject *)p)->allocated;
+	size = var->ob_size;
+	alloc = list->allocated;
 
+	printf("[*] Python list info\n");
 	printf("[*] Size of the Python List = %d\n", size);
 	printf("[*] Allocated = %d\n", alloc);
 
 	for (i = 0; i < size; i++)
 	{
-		printf("Element %d: ", i);
-
-		obj = PyList_GetItem(p, i);
-		printf("%s\n", Py_TYPE(obj)->tp_name);
+		type = list->ob_item[i]->ob_type->tp_name;
+		printf("Element %d: %s\n", i, type);
+		if (strcmp(type, "bytes") == 0)
+			print_python_bytes(list->ob_item[i]);
 	}
 }
 /**
