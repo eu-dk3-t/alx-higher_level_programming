@@ -19,9 +19,8 @@ A function that prints a dictionary by ordered keys.
 ### ++ 7-update_dictionary.py
 A function that replaces or adds key/value in a dictionary.
 ### ++ 8-simple_delete.py
+Deletes an element based on the key from a dict
 ### ++ 9-multiply_by_2.py
+Returns a new dict with all values multiplied by 2
 ### ++ 10-best_score.py
-### ++ 11-multiply_list_map.py
-### ++ 100-weight_average.py
-### ++ 101-square_matrix_map.py
-### ++ 102-complex_delete.py
+Gets the highest value in a dict
