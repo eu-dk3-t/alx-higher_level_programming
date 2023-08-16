@@ -10,6 +10,7 @@
 
 #include <Python.h>
 
+void print_python_bytes(PyObject *p);
 /**
  * Function name: 
  * 	print_python_list 
