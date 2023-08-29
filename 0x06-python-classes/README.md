@@ -9,7 +9,8 @@ Object oriented programming in Python
 * 6-square.py
 * 103-magic_class.py
 Matches the following bytecode
-Bytecode
+Bytecode:
+
 	Disassembly of __init__:
 	 10           0 LOAD_CONST               1 (0)
 	              3 LOAD_FAST                0 (self)
