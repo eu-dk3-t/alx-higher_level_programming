@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Pascal Triangle """
 
+
 def pascal_triangle(n):
     """ Represents a pascal triangle of size n """
     if n <= 0:
