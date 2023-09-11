@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Class-checking function """
 
+
 def is_same_class(obj, a_class):
     """ Checks if two objects are EXACTLY the same class """
 
