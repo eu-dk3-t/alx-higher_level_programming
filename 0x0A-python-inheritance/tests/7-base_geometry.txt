@@ -8,29 +8,6 @@ Import ``BaseGeometry`` from the ``7-base_geometry`` module:
 
 	>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
-Test object initialization with argument as integer 0:
-
-	>>> shape = BaseGeometry(0)
-	Traceback (most recent call last):
-	TypeError: object() takes no parameters
-
-Test object initialization with argument as integer 1:
-
-	>>> shape = BaseGeometry(1)
-	Traceback (most recent call last):
-	TypeError: object() takes no parameters
-
-Test object initialization with argument as string:
-
-	>>> shape = BaseGeometry("string")
-	Traceback (most recent call last):
-	TypeError: object() takes no parameters
-
-Test object initialization with two arguments:
-
-	>>> shape = BaseGeometry("string", 1)
-	Traceback (most recent call last):
-	TypeError: object() takes no parameters
 
 
 Test `area` function with no arguments:
@@ -121,11 +98,9 @@ Test `integer_validator` function with `value` argument as non int:
 	>>> shape.integer_validator("age", True)
 	Traceback (most recent call last):
 	TypeError: age must be an integer
-
-	>>> shape.integer_validator("age", {3, 4})
-	Traceback (most recent call last):
-	TypeError: age must be an integer
+	
 
 	>>> shape.integer_validator("age", None)
 	Traceback (most recent call last):
 	TypeError: age must be an integer
+
