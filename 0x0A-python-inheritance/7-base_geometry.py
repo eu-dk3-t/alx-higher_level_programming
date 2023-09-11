@@ -11,13 +11,14 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """Checks if value is an integer and if it is > 0."""
+
         """
         Args:
             name (:obj:'str'): String.
             value (int): An integer.
         """
 
-        if type(value) !=  int:
+        if type(value) != int:
             raise TypeError(f"{name} must be an integer")
         if value <= 0:
             raise ValueError(f"{name} must be greater than 0")
