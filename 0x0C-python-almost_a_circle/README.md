@@ -11,7 +11,7 @@
 * __init__.py
 * __pycache__
 * test_models
-** __init__.py
-** test_base.py
-** test_rectangle.py
-** test_square.py
+	* __init__.py
+	* test_base.py
+	* test_rectangle.py
+	* test_square.py
